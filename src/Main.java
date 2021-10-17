@@ -5,16 +5,14 @@ public class Main {
         int bonus = 1 * amount / 100 + (amount + balance);
 
 
-
-            if (amount >= 1000) {
-                bonus = 1 * amount / 100 +(amount+balance);
-            }
-            if (amount < 1000) {
-                bonus = amount+balance;
-            }
-
-            System.out.println(bonus);
-
-
+        if (amount >= 1000) {
+            bonus = 1 * amount / 100 + (amount + balance);
+        } else {
+            bonus = amount + balance;
         }
+
+        System.out.println(bonus);
+
+
+    }
 }
