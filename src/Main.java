@@ -5,7 +5,7 @@ public class Main {
         int total;
 
         if (amount >= 1001) {
-           total = 1 * amount / 100 + (amount + balance);
+            total = 1 * amount / 100 + (amount + balance);
         } else {
             total = amount + balance;
         }
